@@ -5,7 +5,7 @@ class AppComponent extends React.Component {
   constructor() {
     super();
     this.state = {
-      method: 'GET',
+      method: 'POST',
       url: '/events'
     };
   }
